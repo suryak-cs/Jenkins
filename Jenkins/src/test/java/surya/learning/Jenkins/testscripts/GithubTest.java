@@ -8,6 +8,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Test
 public class GithubTest extends TestBase {
 
+	/**
+	 * To verify Github Slogan
+	 */
     public void verifyGithubSlogan() {
         HomePage homePage = new HomePage(driver);
         homePage.get();
